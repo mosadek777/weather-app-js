@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Titillium+Web&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="bgTime" class="">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark h-18">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-cloud text-info fs-1"></i>
+                <p class="text-white">Weather</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link mx-2 px-4 active b-blue text-blue rounded-pill" aria-current="page"
+                        href="#">Home</a>
+                    <a class="nav-link mx-2 px-4 text-white hov" href="#">News</a>
+                    <a class="nav-link mx-2 px-4 text-white hov" href="#">Live cameras</a>
+                    <a class="nav-link mx-2 px-4 text-white hov" href="#">Photos</a>
+                    <a class="nav-link mx-2 px-4 text-white hov" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <!-- <h1 id="aa" class="text-light text-center"></h1> -->
+
+        <input type="text" placeholder="search....." id="search" class="form-control w-75 m-auto my-5 py-2 rounded-pill foc-bg">
+
+
+        <div class="container">
+            <div class="text-center py-3" id="cWthr">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row text-center py-5" id="row">
+                
+            </div>  
+        </div>
+
+        <audio controls id="mawtini" class="d-none">
+            <source src="audios/mawtini.mp3" type="audio/mpeg">
+        </audio>
+
+        
+        <audio controls id="elqahira" class="d-none">
+            <source src="audios/elqahira.mp3" type="audio/mpeg">
+        </audio>
+
+
+        <audio controls id="dakhla" class="d-none">
+            <source src="audios/dakhla.mp3">
+        </audio>
+
+
+    </section>
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
